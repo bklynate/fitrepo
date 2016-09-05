@@ -3,7 +3,6 @@ var Counter = require('Counter');
 var MacroForm = require('MacroForm');
 
 var Macrotracker = React.createClass({
-
   render: function(){
     return(
       <div>
