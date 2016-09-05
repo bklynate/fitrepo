@@ -3,6 +3,7 @@ var Counter = require('Counter');
 var MacroForm = require('MacroForm');
 
 var Macrotracker = React.createClass({
+
   render: function(){
     return(
       <div>
@@ -10,12 +11,15 @@ var Macrotracker = React.createClass({
         <div className="row">
           <div className="large-4 columns">
             <Counter macrocount={50}/>
+            <MacroForm />
           </div>
           <div className="large-4 columns">
             <Counter />
+            <MacroForm />
           </div>
           <div className="large-4 columns">
             <Counter />
+            <MacroForm />
           </div>
         </div>
       </div>

@@ -6,6 +6,10 @@ var MacroForm = React.createClass({
 
     var macroAmount = this.refs.macrograms.value;
 
+    if(macroAmount.match(/^[0-9]*$/)){
+      this.refs.macroAmount.value = "";
+      this.props.onMacroAdd(parseInt(macroAmount, 10));
+    }
   },
   render: function(){
     return(
