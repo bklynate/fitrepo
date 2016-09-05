@@ -1,16 +1,26 @@
 var React = require('react');
 
 var Counter = React.createClass({
-  render: function(){
-    return(
-      <div className="row">
-        <div className="columns large-4">
-          <div className="counter">
-            <span className="counter-text">
+  getDefaultProps: function(){
+    return {
+      macrocount: 0
+    }
+  },
+  formatMacros: function(macrocount){
+    if(macrocount.length < 3){
+      return macrocount = "0" + macrocount;
+    } else {
+      return macrocount = macrocount
+    }
 
-            </span>
-          </div>
-        </div>
+  },
+  render: function(){
+    var {macrocount} = this.props
+    return(
+      <div className="counter">
+        <span className="counter-text">
+          {this.formatMacros(macrocount)}
+        </span>
       </div>
     );
   }

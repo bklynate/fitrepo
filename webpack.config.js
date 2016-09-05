@@ -28,6 +28,7 @@ module.exports = {
       Nav: 'app/components/Nav.jsx',
       Macroguide: 'app/components/Macroguide.jsx',
       Macrotracker: 'app/components/Macrotracker.jsx',
+      MacroForm: 'app/components/MacroForm.jsx',
       Counter: 'app/components/Counter.jsx'
     },
     extensions: ['', '.js', '.jsx']
