@@ -1,5 +1,6 @@
 var React = require('react');
 var Counter = require('Counter');
+var MacroForm = require('MacroForm');
 
 var Macrotracker = React.createClass({
   getInitialState: function(){
