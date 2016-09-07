@@ -2,17 +2,13 @@ var React = require('react');
 
 var Counter = React.createClass({
   getDefaultProps: function(){
-    return {
-      macrocount: 0
-    }
+    macrocount: 0
+  },
+  propTypes: {
+    macrocount: React.PropTypes.number
   },
   formatMacros: function(macrocount){
-    if(macrocount.length < 3){
-      return macrocount = "0" + macrocount;
-    } else {
-      return macrocount = macrocount
-    }
-
+    return macrocount 
   },
   render: function(){
     var {macrocount} = this.props

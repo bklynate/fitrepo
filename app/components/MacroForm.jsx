@@ -4,11 +4,11 @@ var MacroForm = React.createClass({
   onFormSubmit: function(e){
     e.preventDefault();
 
-    var macroAmount = this.refs.macrograms.value;
+    var macrograms = this.refs.macrograms.value;
 
-    if(macroAmount.match(/^[0-9]*$/)){
-      this.refs.macroAmount.value = "";
-      this.props.onMacroAdd(parseInt(macroAmount, 10));
+    if(macrograms.match(/^[0-9]*$/)){
+      this.refs.macrograms.value = "";
+      this.props.onMacroAdd(parseInt(macrograms, 10));
     }
   },
   render: function(){
