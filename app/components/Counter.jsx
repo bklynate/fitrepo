@@ -8,7 +8,10 @@ var Counter = React.createClass({
     macrocount: React.PropTypes.number
   },
   formatMacros: function(macrocount){
-    return macrocount 
+    if(macrocount < 100){
+      macrocount = "0" + macrocount;
+    }
+    return macrocount
   },
   render: function(){
     var {macrocount} = this.props
