@@ -29,6 +29,7 @@ module.exports = {
       Macroguide: 'app/components/Macroguide.jsx',
       Macrotracker: 'app/components/Macrotracker.jsx',
       MacroForm: 'app/components/MacroForm.jsx',
+      DeductMacros: 'app/components/DeductMacros.jsx',
       Counter: 'app/components/Counter.jsx'
     },
     extensions: ['', '.js', '.jsx']
