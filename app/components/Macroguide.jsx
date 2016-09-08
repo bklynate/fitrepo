@@ -40,6 +40,11 @@ We'll aim for an average, fat loss rate of 1.25-1.5lbs a week. The scale weight 
             <li>F: 80</li>
           </ul>
           </p>
+          <h2 className="page-title">Rules and Important Nutrition Points.</h2>
+          <ul>
+            <li>Only count starchy carbs. (Bread, Rice, Pasta, Potato, Fruit etc.)</li>
+            <li>Vegetables -don't count against your carb number*.</li>
+          </ul>
         </div>
       </div>
     )

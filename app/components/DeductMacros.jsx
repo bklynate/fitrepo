@@ -16,7 +16,7 @@ var DeductMacros = React.createClass({
       <div>
         <form ref="form" onSubmit={this.onFormSubmit}>
           <input type="text" ref="macrograms" placeholder="Enter amount to deduct.."/>
-          <button className="expanded button hollow">Deduct Macros</button>
+          <button className="expanded button hollow alert">Deduct Macros</button>
         </form>
       </div>
     );
