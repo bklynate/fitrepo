@@ -74,9 +74,9 @@ var Macrotracker = React.createClass({
     }
     var renderFatArea = () => {
       if(f_loaded === false){
-        return <MacroForm onMacroAdd={this.handleProteinMacroAdd}/>
+        return <MacroForm onMacroAdd={this.handleFatMacroAdd}/>
       } else {
-        return <DeductMacros onMacroSub={this.handleProteinMacroSub}/>
+        return <DeductMacros onMacroSub={this.handleFatMacroSub}/>
       }
     }
 

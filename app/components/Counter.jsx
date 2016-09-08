@@ -9,11 +9,11 @@ var Counter = React.createClass({
   },
   formatMacros: function(macrocount){
     if(macrocount === 0){
-      macrocount
+      macrocount;
     } else if (macrocount < 100){
-      macrocount = "0"+ macrocount
+      macrocount = "0"+ macrocount;
     }
-    return macrocount
+    return macrocount;
   },
   render: function(){
     var {macrocount} = this.props
