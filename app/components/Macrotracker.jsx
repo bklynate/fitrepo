@@ -113,17 +113,17 @@ var Macrotracker = React.createClass({
       <div>
         <h1 className="page-title">Track Macros</h1>
         <div className="row">
-          <div className="large-4 columns">
+          <div className="columns large-4">
             <h3 className="macro-title">Protein</h3>
             <Counter macrocount={p_macrocount}/>
             {renderProteinArea()}
           </div>
-          <div className="large-4 columns">
+          <div className="columns large-4">
             <h3 className="macro-title">Carbs</h3>
             <Counter macrocount={c_macrocount}/>
             {renderCarbArea()}
           </div>
-          <div className="large-4 columns">
+          <div className="columns large-4">
             <h3 className="macro-title">Fat</h3>
             <Counter macrocount={f_macrocount}/>
             {renderFatArea()}
