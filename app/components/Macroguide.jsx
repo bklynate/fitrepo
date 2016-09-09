@@ -80,19 +80,41 @@ We'll aim for an average, fat loss rate of 1.25-1.5lbs a week. The scale weight 
           </ul>
           <ul>
             <li><strong>Protein</strong></li>
-          <ul>
-            <li>Training Day is low-fat (Leaner cuts of meat). Rest-Day is higher fat (Fattier fish, meat etc.) Counting the fat numbers in meat can be a headache so we won't. We're just going to think of something as either 1) fatty or 2) lean.</li>
-            <li>Lean Protein Sources:</li>
               <ul>
-                <li>Chicken breast (skinless)</li>
-                <li>Extremely lean red meat >95% fat-free.</li>
-                <li>Low-fat fish. Generally white fish. Some cuts of Tuna are fine. Crab too.</li>
-                <li>Egg whites. (Adding one yolk for flavour is fine.)</li>
-                <li>Protein shakes</li>
-                <li>Low-fat dairy.</li>
+                <li>Training Day is low-fat (Leaner cuts of meat). Rest-Day is higher fat (Fattier fish, meat etc.) Counting the fat numbers in meat can be a headache so we won't. We're just going to think of something as either 1) fatty or 2) lean.</li>
+                <li>Lean Protein Sources:</li>
+                <ul>
+                  <li>Chicken breast (skinless)</li>
+                  <li>Extremely lean red meat >95% fat-free.</li>
+                  <li>Low-fat fish. Generally white fish. Some cuts of Tuna are fine. Crab too.</li>
+                  <li>Egg whites. (Adding one yolk for flavour is fine.)</li>
+                  <li>Protein shakes</li>
+                  <li>Low-fat dairy.</li>
+                </ul>
+                <li>Uncooked beef/ chicken/ pork/ lamb/ fish 100g = ~20g of protein. - Keep it simple.</li>
+                <li>One large egg = ~8g protein 5g fat. Egg whites = ~4g protein.</li>
+                <li>We can't eat all your meat from fattier sources on rest days as this will have too much fat in total. (Besides being expensive as hell.)
+                <br/>A good rule of thumb is to keep the meat on this day half lean/half fattier source. I have explained this in further detail in the section "fat".</li>
               </ul>
             </ul>
-          </ul>  
+            <ul>
+              <li><strong>Fat</strong></li>
+              <ul>
+                <li>Counting fat in meat, unless you're eating processed stuff with a nutritional label, (sausages, mince/ground meat etc) is always going to be a guess at best. Trying to find the right macros for the cut of meat that you have chosen in a nutritional calculator is a hassle. To minimize hassle on a daily continual basis I have guidelines for the counting of fat.</li>
+                <li>I used to get people to assume that they would hit their fat macros by not counting the fat in meat and thinking it would all sort itself out on average. This worked 90% of the time. I'm not happy with that 10% figure left though, so the advice is to count your fat macros in everything a few times and see what numbers you get. If you come up short then add in fats from butter, olive oil, avocado, anything you wish to meet those numbers.</li>
+                <li>If you then keep your meals reasonably consistent then there is no need to count everything each day. Everything will "even itself out".</li>
+                <li>On training days, eat from the list of lean protein sources.</li>
+                <li>On rest days, I suggest that you use a general rule to eat half of your protein macros for the day from "fattier sources" and the rest from lean sources.</li>
+                <li>Important: Cuts of "fatty meat" like steak etc can vary in their fat content greatly from country to country thus I don't/can't have specific guidelines for individual cuts/meats. I do not want you to under-eat on fat as this can cause hormonal issues.</li>
+                <li>Rules to try and help:</li>
+                <ul>
+                  <li>Up to 5g of fish oil fats are not counted in the number for fats I have given you as a target above. Count any fish oil fats over 5g against your target.</li>
+                  <li>A teaspoon of olive oil is around 5g of of fat. A tablespoon is around 15g of fat so be careful with that oil and drain fat from the pan.</li>
+                  <li>Nutritional Calculator* where you can search your meats. (*Links in Section 2 don't work, but 1 and 3 are fine.)</li>
+                  <li>On occasion you're going to want to break away from the plan and eat something different for example a cake that has more fat. In this situation either: 1. Reduce fattier meat and guess. 2. Count everything accurately and make it fit. I personally always opt for number 1.</li>
+                </ul>
+              </ul>
+            </ul>
         </div>
       </div>
     )
