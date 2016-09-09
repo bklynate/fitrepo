@@ -14,6 +14,26 @@ var Macrotracker = React.createClass({
       c_loaded: false,
     };
   },
+  componentWillUpdate: function(nextProps,nextState){
+    if(nextState.p_macrocount < 0){
+      this.setState({
+        p_macrocount: 0,
+        p_loaded: false
+      });
+    }
+    if(nextState.c_macrocount < 0){
+      this.setState({
+        c_macrocount: 0,
+        c_loaded: false
+      });
+    }
+    if(nextState.f_macrocount < 0){
+      this.setState({
+        f_macrocount: 0,
+        f_loaded: false
+      });
+    }
+  },
   handleProteinMacroAdd: function(macrograms){
     this.setState({
       p_macrocount: macrograms,
@@ -48,22 +68,21 @@ var Macrotracker = React.createClass({
     }
   },
   handleCarbMacroSub: function(newMacrocount){
+    var currentMacro = this.state.c_macrocount - newMacrocount;
     this.setState({
-      c_macrocount: this.state.c_macrocount - newMacrocount
+      c_macrocount: currentMacro
     });
-    if(this.state.c_macrocount <= 0){
-      return this.setState({c_loaded: false,c_macrocount:0})
+    if(currentMacro === 0){
+      this.setState({c_loaded: false,c_macrocount:0})
     }
   },
   handleFatMacroSub: function(newMacrocount){
-    if(this.state.f_macrocount <= 0){
-      this.setState({f_loaded: false})
-    }
-    this.setState({
-      f_macrocount: this.state.f_macrocount - newMacrocount
+    var currentMacro = this.state.f_macrocount - newMacrocount;
+      this.setState({
+      f_macrocount: currentMacro
     });
-    if(this.state.f_macrocount <= 0){
-      this.setState({f_loaded: false})
+    if(currentMacro === 0){
+      this.setState({f_loaded: false,f_macrocount:0})
     }
   },
   render: function(){
