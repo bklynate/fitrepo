@@ -6,7 +6,7 @@ var DeductMacros = React.createClass({
 
     var macrograms = this.refs.macrograms.value;
 
-    if(macrograms.match(/^[0-9]*$/)){
+    if(macrograms.match(/^[0-9]*$/) && typeof parseInt(macrograms,10) === "number"){
       this.refs.macrograms.value = "";
       this.props.onMacroSub(parseInt(macrograms, 10));
     }
