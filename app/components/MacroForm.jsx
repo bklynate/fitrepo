@@ -6,7 +6,7 @@ var MacroForm = React.createClass({
 
     var macrograms = this.refs.macrograms.value;
 
-    if(macrograms.match(/^[0-9]*$/)){
+    if(macrograms.match(/^[0-9]*$/) && macrograms !== ""){
       this.refs.macrograms.value = "";
       this.props.onMacroAdd(parseInt(macrograms, 10));
     }
