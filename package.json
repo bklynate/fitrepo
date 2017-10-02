@@ -5,13 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start",
-    "start": "node server.js"
+    "start": "webpack && node server.js"
   },
   "author": "Nathaniel Quashie",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
+    "body-parser": "^1.18.2",
     "express": "^4.13.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.11.13",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.2.1",
     "react": "^0.14.7",
     "react-addons-test-utils": "^0.14.7",
     "react-dom": "^0.14.7",
@@ -25,7 +31,7 @@
     "babel-preset-stage-0": "^6.5.0",
     "css-loader": "^0.23.1",
     "expect": "^1.14.0",
-    "foundation-sites": "^6.2.0",
+    "foundation-sites": "^6.4.3",
     "jquery": "^2.2.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^0.2.2",

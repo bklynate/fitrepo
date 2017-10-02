@@ -16,6 +16,10 @@ var Nav = React.createClass({
             <li className="menu-text">
               <IndexLink to='/macrotracker' activeClassName="active-link">Macro Tracker</IndexLink>
             </li>
+            <li className="menu-text">
+              <IndexLink to='/login' activeClassName="active-link">Login
+            </IndexLink>
+            </li>
           </ul>
         </div>
         <div className="top-bar-right">

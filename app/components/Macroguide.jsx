@@ -4,7 +4,7 @@ var Macroguide = React.createClass({
   render: function(){
     return (
       <div className="row">
-        <div className="columns medium-6 large-4 small-centered">
+        <div className="medium-6 large-4 small-centered columns">
           <h1 className="page-title">Nutrition Notes</h1>
           <p>The changes you'll see in the mirror will be slower than if we went for a straight cut, so we'll need to track both strength increases and body measurements carefully.
 We'll aim for an average, fat loss rate of 1.25-1.5lbs a week. The scale weight may reflect a little less as muscle is put on but the measurements on the stomach will tell us that we are heading in the right direction.
